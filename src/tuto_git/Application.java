@@ -20,6 +20,7 @@ public class Application extends Frame implements WindowListener{
 		vue.addActionListener(ctrl);
 		setLocationRelativeTo(null);
 		this.add(vue);
+		this.setTitle("GITHUB");
 		this.pack();
 		this.setVisible(true);
 	}
