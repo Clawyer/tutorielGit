@@ -12,7 +12,7 @@ public class Application extends Frame implements WindowListener{
 	
 	public Application() {
 		super();
-		this.setTitle("ok.");
+//		this.setTitle("ok.");
 		Modele modl = new Modele();
 		Controleur ctrl = new Controleur(modl); 
 		Vue vue = new Vue();
